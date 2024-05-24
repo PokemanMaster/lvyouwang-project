@@ -1,0 +1,26 @@
+package api
+
+import (
+	"github.com/gin-gonic/gin"
+	"qiqi-go/pkg/logging"
+	"qiqi-go/service"
+)
+
+// CreateParamImg 创建商品参数图片
+func CreateParamImg(c *gin.Context) {
+	service := service.CreateParamImgService{}
+	if err := c.ShouldBind(&service); err == nil {
+		res := service.Create()
+		c.JSON(200, res)
+	} else {
+		c.JSON(200, ErrorResponse(err))
+		logging.Info(err)
+	}
+}
+
+// ShowParamImgs 商品参数图片接口
+func ShowParamImgs(c *gin.Context) {
+	service := service.ShowParamImgsService{}
+	res := service.Show(c.Param("id"))
+	c.JSON(200, res)
+}

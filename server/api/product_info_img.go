@@ -1,0 +1,26 @@
+package api
+
+import (
+	"github.com/gin-gonic/gin"
+	"qiqi-go/pkg/logging"
+	"qiqi-go/service"
+)
+
+// CreateInfoImg 创建商品详情图片
+func CreateInfoImg(c *gin.Context) {
+	service := service.CreateInfoImgService{}
+	if err := c.ShouldBind(&service); err == nil {
+		res := service.Create()
+		c.JSON(200, res)
+	} else {
+		c.JSON(200, ErrorResponse(err))
+		logging.Info(err)
+	}
+}
+
+// ShowInfoImgs 商品详情图片接口
+func ShowInfoImgs(c *gin.Context) {
+	service := service.ShowInfoImgsService{}
+	res := service.Show(c.Param("id"))
+	c.JSON(200, res)
+}
