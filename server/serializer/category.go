@@ -1,0 +1,32 @@
+package serializer
+
+import (
+	"qiqi-go/models"
+)
+
+// Category 分类序列化器
+type Category struct {
+	ID           uint   `json:"id"`
+	CategoryID   uint   `json:"category_id"`
+	CategoryName string `json:"category_name"`
+	CreatedAt    int64  `json:"created_at"`
+}
+
+// BuildCategory 序列化分类
+func BuildCategory(item models.Category) Category {
+	return Category{
+		ID:           item.ID,
+		CategoryID:   item.CategoryID,
+		CategoryName: item.CategoryName,
+		CreatedAt:    item.CreatedAt.Unix(),
+	}
+}
+
+// BuildCategories 序列化分类列表
+func BuildCategories(items []models.Category) (categories []Category) {
+	for _, item := range items {
+		category := BuildCategory(item)
+		categories = append(categories, category)
+	}
+	return categories
+}
