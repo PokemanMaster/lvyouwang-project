@@ -1,0 +1,100 @@
+.body {
+  height: 100vh;
+
+  h1 {
+    font-size: 2em;
+    color: #333333;
+  }
+
+  p {
+    font-size: 1.5em;
+    color: #333333;
+  }
+
+
+  .ContainOrder {
+    display: flex;
+    flex-direction: column;
+
+    h4 {
+      font-size: 2em;
+    }
+
+    .ContainMoney {
+      font-size: 17px;
+      color: #959595;
+      background-color: rgba(169, 169, 169, 0.1); /* 使用 rgba 表示法，最后一个参数是透明度，取值范围为 0（完全透明）到 1（完全不透明） */
+      border-left: 1px solid rgba(169, 169, 169, 0.3);
+      border-bottom: 1px solid rgba(169, 169, 169, 0.3);
+      border-right: 1px solid rgba(169, 169, 169, 0.3);
+
+      .ContainOrderId {
+        padding-left: 10px;
+
+        img {
+          width: 107px;
+        }
+      }
+
+      thead th {
+        background-color: #f2f2f2;
+        padding: 8px;
+        text-align: left;
+
+        tbody td {
+          border-bottom: 1px solid #ddd;
+          padding: 8px;
+        }
+
+        tbody tr:last-child td {
+          border-bottom: none;
+        }
+      }
+
+    }
+  }
+
+  .Information {
+    display: flex;
+    flex-direction: column;
+
+    .ReceiptInformation {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+
+      h4 {
+        font-size: 2em;
+      }
+
+      .ContainMoney {
+        height: 200px;
+        font-size: 17px;
+        color: #959595;
+        background-color: rgba(169, 169, 169, 0.1); /* 使用 rgba 表示法，最后一个参数是透明度，取值范围为 0（完全透明）到 1（完全不透明） */
+        border-left: 1px solid rgba(169, 169, 169, 0.3);
+        border-bottom: 1px solid rgba(169, 169, 169, 0.3);
+        border-right: 1px solid rgba(169, 169, 169, 0.3);
+
+
+        thead th {
+          background-color: #f2f2f2;
+          padding: 8px;
+          text-align: left;
+
+          tbody td {
+            border-bottom: 1px solid #ddd;
+            padding: 8px;
+          }
+
+          tbody tr:last-child td {
+            border-bottom: none;
+          }
+        }
+
+      }
+    }
+
+  }
+}
+

@@ -1,0 +1,80 @@
+.body {
+  height: 100vh;
+}
+.body h1 {
+  font-size: 2em;
+  color: #333333;
+}
+.body p {
+  font-size: 1.5em;
+  color: #333333;
+}
+.body .ContainOrder {
+  display: flex;
+  flex-direction: column;
+}
+.body .ContainOrder h4 {
+  font-size: 2em;
+}
+.body .ContainOrder .ContainMoney {
+  font-size: 17px;
+  color: #959595;
+  background-color: rgba(169, 169, 169, 0.1);
+  /* 使用 rgba 表示法，最后一个参数是透明度，取值范围为 0（完全透明）到 1（完全不透明） */
+  border-left: 1px solid rgba(169, 169, 169, 0.3);
+  border-bottom: 1px solid rgba(169, 169, 169, 0.3);
+  border-right: 1px solid rgba(169, 169, 169, 0.3);
+}
+.body .ContainOrder .ContainMoney .ContainOrderId {
+  padding-left: 10px;
+}
+.body .ContainOrder .ContainMoney .ContainOrderId img {
+  width: 107px;
+}
+.body .ContainOrder .ContainMoney thead th {
+  background-color: #f2f2f2;
+  padding: 8px;
+  text-align: left;
+}
+.body .ContainOrder .ContainMoney thead th tbody td {
+  border-bottom: 1px solid #ddd;
+  padding: 8px;
+}
+.body .ContainOrder .ContainMoney thead th tbody tr:last-child td {
+  border-bottom: none;
+}
+.body .Information {
+  display: flex;
+  flex-direction: column;
+}
+.body .Information .ReceiptInformation {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.body .Information .ReceiptInformation h4 {
+  font-size: 2em;
+}
+.body .Information .ReceiptInformation .ContainMoney {
+  height: 200px;
+  font-size: 17px;
+  color: #959595;
+  background-color: rgba(169, 169, 169, 0.1);
+  /* 使用 rgba 表示法，最后一个参数是透明度，取值范围为 0（完全透明）到 1（完全不透明） */
+  border-left: 1px solid rgba(169, 169, 169, 0.3);
+  border-bottom: 1px solid rgba(169, 169, 169, 0.3);
+  border-right: 1px solid rgba(169, 169, 169, 0.3);
+}
+.body .Information .ReceiptInformation .ContainMoney thead th {
+  background-color: #f2f2f2;
+  padding: 8px;
+  text-align: left;
+}
+.body .Information .ReceiptInformation .ContainMoney thead th tbody td {
+  border-bottom: 1px solid #ddd;
+  padding: 8px;
+}
+.body .Information .ReceiptInformation .ContainMoney thead th tbody tr:last-child td {
+  border-bottom: none;
+}
+/*# sourceMappingURL=index.module.css.map */

@@ -1,0 +1,15 @@
+.body {
+  background-image: url("../../public/picture/login.jpg");
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.body h1 {
+  text-align: center;
+}
+.body p {
+  text-align: center;
+}
+/*# sourceMappingURL=index.module.css.map */

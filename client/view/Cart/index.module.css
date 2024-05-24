@@ -1,0 +1,226 @@
+.Body {
+  height: 100%;
+}
+.TopHeader {
+  background-color: #ffffff;
+  border-bottom: 2px solid #ff6700;
+}
+.TopHeader .CartHeader {
+  display: flex;
+  justify-content: center;
+  height: 100px;
+  background-color: #ffffff;
+  margin: 0 auto;
+  position: relative;
+}
+.TopHeader .CartHeader .Logo {
+  height: 60px;
+  width: 100px;
+  margin-top: 22px;
+  margin-right: 20px;
+}
+.TopHeader .CartHeader .Logo img {
+  height: 60px;
+}
+.TopHeader .CartHeader p {
+  margin-top: 23px;
+  font-size: 28px;
+  line-height: 58px;
+  float: left;
+  font-weight: normal;
+  color: #424242;
+}
+.TopHeader .CartHeader .CartHeaderContent span {
+  color: #757575;
+  font-size: 12px;
+  float: left;
+  height: 20px;
+  line-height: 20px;
+  margin-top: 48px;
+  margin-left: 15px;
+}
+.ContentHeader {
+  border-bottom: 1px solid #cccccc;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #9E9E9E;
+  margin-top: 3px;
+  height: 70px;
+}
+.ContentHeader .ProCheck {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ContentHeader .ProCheck .checkBtn {
+  width: 17px;
+  height: 17px;
+  margin-right: 7px;
+  border: 1px solid #ccc;
+  background-color: white;
+}
+.ContentHeader .ProImg {
+  display: flex;
+  justify-content: center;
+}
+.ContentHeader .ProName {
+  display: flex;
+  justify-content: center;
+}
+.ContentHeader .ProNum {
+  display: flex;
+  justify-content: center;
+}
+.ContentHeader .ProTotal {
+  display: flex;
+  justify-content: center;
+}
+.ContentHeader .ProAction {
+  display: flex;
+  justify-content: center;
+}
+.CarItem {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 7px;
+  padding: 10px 0;
+}
+.CarItem .CartInfo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.CarItem .CartInfo .CarItemCheck {
+  margin-left: 7px;
+  width: 17px;
+  height: 17px;
+  border: 1px solid #ccc;
+  background-color: white;
+  margin-right: 15px;
+}
+.CarItem .CartInfo .CarItemPicture {
+  width: 70px;
+  height: 70px;
+  border: 1px solid #ccc;
+}
+.CarItem .CartInfo .CarItemPicture img {
+  width: 100%;
+  height: 100%;
+}
+.CarItem .CarItemIntroduce {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  /* 防止文本换行 */
+}
+.CarItem .CarItemNum {
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
+  color: #8491a5;
+}
+.CarItem .CarItemNum button {
+  padding: 3px 7px;
+  background-color: #f9f8fd;
+  border: 1px solid #ccc;
+}
+.CarItem .CarItemNum span {
+  border: 1px solid #ccc;
+  padding: 3px 10px;
+}
+.CarItem .CarItemMoney {
+  display: flex;
+  justify-content: center;
+  color: #e02e24;
+  font-size: 22px;
+  font-weight: 700;
+}
+.CarItem .CarItemButton {
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  margin: 0 3px;
+}
+.shopCarSubmit {
+  background-color: #fff;
+  display: flex;
+  padding: 10px 0;
+  align-items: center;
+  max-width: 1225px;
+  margin: 0 auto;
+}
+.shopCarSubmit .check {
+  display: flex;
+  align-items: center;
+  margin-left: 5px;
+}
+.shopCarSubmit .check .checkBtn {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  background-color: white;
+}
+.shopCarSubmit .check span {
+  font-size: 18px;
+  color: #9E9E9E;
+  margin-left: 10px;
+}
+.shopCarSubmit .settle {
+  display: flex;
+  align-items: center;
+}
+.shopCarSubmit .settle span {
+  font-size: 20px;
+  color: #9E9E9E;
+  margin-right: 10px;
+}
+.shopCarSubmit .settle .totalMoney {
+  display: flex;
+  align-items: center;
+}
+.shopCarSubmit .settle .totalMoney span {
+  color: #e02e24;
+  font-size: 20px;
+}
+.shopCarSubmit .settle .shopCarSubmitButton {
+  height: 50px;
+  background-color: #e02e24;
+}
+.shopCarSubmit .settle .shopCarSubmitButton span {
+  color: #ffffff;
+  text-align: center;
+}
+.changeButton {
+  width: 100px;
+  height: 40px;
+}
+.EmptyCart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 2.666667rem 0;
+  height: 100%;
+}
+.EmptyCart .EmptyCartImg {
+  height: 5.7rem;
+  width: 5.7rem;
+}
+.EmptyCart .EmptyCartText1 {
+  font-size: 1.7rem;
+  color: #666;
+  padding: 0.7rem 0;
+}
+.EmptyCart .EmptyCartText2 {
+  color: #888;
+  font-size: 0.7rem;
+  margin-bottom: 0.7rem;
+}
+/*# sourceMappingURL=index.module.css.map */

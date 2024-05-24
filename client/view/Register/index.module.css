@@ -1,0 +1,15 @@
+.body {
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-image: url("../../public/picture/register.jpg");
+}
+.body h1 {
+  text-align: center;
+}
+.body p {
+  text-align: center;
+}
+/*# sourceMappingURL=index.module.css.map */

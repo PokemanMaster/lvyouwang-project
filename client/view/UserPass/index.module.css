@@ -1,0 +1,23 @@
+.UserPassContent {
+  max-width: 1225px;
+  margin: 0 auto;
+  background-color: #ffffff;
+}
+.UserPassContent .UserPassTitle {
+  height: 100px;
+  text-align: center;
+  margin: 0 20px 0 auto;
+}
+.UserPassContent .UserPassTitle p {
+  font-size: 30px;
+  color: #757575;
+  margin-left: 50px;
+}
+.UserPassContent .UserPassForm {
+  display: flex;
+  justify-content: center;
+}
+.UserPassContent .Extra {
+  height: 10px;
+}
+/*# sourceMappingURL=index.module.css.map */

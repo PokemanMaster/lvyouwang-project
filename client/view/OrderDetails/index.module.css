@@ -1,0 +1,142 @@
+.body {
+  height: 100vh;
+}
+.body h1 {
+  text-align: center;
+  font-size: 3em;
+  color: #333333;
+}
+.body .address {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 700px;
+  margin: 27px auto 0;
+}
+.body .address .addressItem {
+  display: flex;
+  flex-direction: column;
+  width: 97%;
+  margin: 0 auto 27px;
+  overflow: hidden;
+  border-top: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  box-shadow: 3px 3px 3px 1px rgba(0, 0, 0, 0.3);
+  position: relative;
+  justify-content: space-between;
+}
+.body .address .addressItem .itemProfile {
+  padding-top: 17px;
+  padding-left: 10px;
+  font-size: 20px;
+}
+.body .address .addressItem .itemProfile .itemTelephone {
+  margin-left: 15px;
+}
+.body .address .addressItem .itemProfile .itemDelete {
+  position: absolute;
+  right: 10px;
+  top: 5px;
+  color: #8498A5;
+}
+.body .address .addressItem .itemButton {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid #ccc;
+  height: 40px;
+}
+.body .address .addressItem .itemButton .default {
+  display: flex;
+  align-items: center;
+}
+.body .address .addressItem .itemButton .default .defaultButton {
+  margin-left: 10px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+}
+.body .address .addressItem .itemButton .default span {
+  margin-left: 10px;
+  font-size: 20px;
+  color: #8491a5;
+}
+.body .address .addressItem .itemButton .selectButton {
+  display: flex;
+}
+.body .address .addressItem .itemButton .selectButton .copyButton {
+  margin-right: 20px;
+}
+.body .address .addressItem .itemButton .selectButton .updateButton {
+  margin-right: 20px;
+}
+.body .address .addressButton {
+  width: 87%;
+  max-width: 700px;
+  margin: 0 auto 27px;
+  font-size: 20px;
+  height: 57px;
+  background-color: #e02e24;
+  color: #fff;
+  border-radius: 7px;
+}
+.body .Contain {
+  display: flex;
+  border-top: 1px solid #ccc;
+  flex-direction: column;
+}
+.body .Contain .ContainPay {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  flex-wrap: wrap;
+}
+.body .Contain .ContainPay h4 {
+  font-size: 2em;
+}
+.body .Contain .ContainPay h5 {
+  font-size: 1.5em;
+}
+.body .Contain .ContainPay .Platform {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.body .Contain .ContainPay .Platform Button {
+  margin-right: 27px;
+}
+.body .Contain .ContainPay .UnionPay {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.body .Contain .ContainPay .UnionPay Button {
+  margin-right: 27px;
+}
+.body .Contain .ContainOrder {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  flex-wrap: wrap;
+  margin-top: 26px;
+}
+.body .Contain .ContainOrder h4 {
+  font-size: 2em;
+}
+.body .Contain .ContainOrder .ContainMoney {
+  height: 200px;
+  font-size: 17px;
+  color: #959595;
+  background-color: rgba(169, 169, 169, 0.1);
+  /* 使用 rgba 表示法，最后一个参数是透明度，取值范围为 0（完全透明）到 1（完全不透明） */
+  border-left: 1px solid rgba(169, 169, 169, 0.3);
+  border-bottom: 1px solid rgba(169, 169, 169, 0.3);
+  border-right: 1px solid rgba(169, 169, 169, 0.3);
+}
+.body .Contain .ContainOrder .ContainMoney .ContainOrderId {
+  border-top: 1px solid rgba(169, 169, 169, 0.4);
+  padding-left: 20px;
+}
+/*# sourceMappingURL=index.module.css.map */

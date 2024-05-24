@@ -1,0 +1,119 @@
+.TopHeader {
+  width: 100%;
+  background-color: #ffffff;
+  border-bottom: 2px solid #ff6700;
+}
+.TopHeader .CartHeader {
+  display: flex;
+  justify-content: center;
+  height: 100px;
+  background-color: #ffffff;
+  margin: 0 auto;
+  position: relative;
+}
+.TopHeader .CartHeader .Logo {
+  height: 60px;
+  width: 100px;
+  margin-top: 22px;
+  margin-right: 20px;
+}
+.TopHeader .CartHeader .Logo img {
+  height: 60px;
+}
+.TopHeader .CartHeader p {
+  margin-top: 23px;
+  font-size: 28px;
+  line-height: 58px;
+  float: left;
+  font-weight: normal;
+  color: #424242;
+}
+.TopHeader .CartHeader .CartHeaderContent span {
+  color: #757575;
+  font-size: 12px;
+  float: left;
+  height: 20px;
+  line-height: 20px;
+  margin-top: 48px;
+  margin-left: 15px;
+}
+.CarItem {
+  max-width: 700px;
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+  margin: 0 auto 10px;
+}
+.CarItem .CarItemTop {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.CarItem .CarItemTop .carItemPicture {
+  width: 80px;
+  height: 80px;
+  border: 1px solid #ccc;
+  margin-left: 17px;
+}
+.CarItem .CarItemTop .carItemPicture img {
+  width: 100%;
+  height: 100%;
+}
+.CarItem .CarItemTop .CarItemInfo {
+  display: flex;
+  flex-direction: column;
+}
+.CarItem .CarItemTop .CarItemInfo .carItemIntroduce {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.CarItem .CarItemTop .CarItemInfo .carItemMoney {
+  color: #e02e24;
+  font-size: 20px;
+}
+.CarItem .CarItemBottom {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  /* Align items to the right */
+}
+.CarItem .CarItemBottom .CarItemMoney {
+  color: #e02e24;
+  font-size: 22px;
+  font-weight: 700;
+  padding-right: 10px;
+  margin-top: 8px;
+}
+.CarItem .CarItemBottom .CarItemButton {
+  height: 47px;
+  margin: 0 20px;
+  /* Adjust margin as needed */
+}
+.EmptyCart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2.666667rem;
+  height: 100%;
+}
+.EmptyCart .EmptyCartImg {
+  height: 5.7rem;
+  width: 5.7rem;
+}
+.EmptyCart .EmptyCartText1 {
+  font-size: 1.7rem;
+  color: #666;
+  padding: 0.7rem 0;
+}
+.EmptyCart .EmptyCartText2 {
+  color: #888;
+  font-size: 0.7rem;
+  margin-bottom: 0.7rem;
+}
+/*# sourceMappingURL=index.module.css.map */

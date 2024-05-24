@@ -1,0 +1,80 @@
+.CenterLayout {
+  max-width: 1225px;
+  margin: 0 auto;
+}
+.CenterContent {
+  background-color: #ffffff;
+}
+.CenterContent .CenterUser {
+  width: 100%;
+  border-bottom: 1px solid #c2c4ca;
+}
+.CenterContent .CenterUser .User {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 27px;
+}
+.CenterContent .CenterUser .User .UserAvator {
+  margin-top: 20px;
+  width: 150px;
+  height: 150px;
+  margin-right: 20px;
+  border-radius: 50%;
+  padding: 5px;
+  border: 1px solid #ddd;
+}
+.CenterContent .CenterUser .User .UserAvator img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.CenterContent .CenterUser .User .UserInfo {
+  line-height: 30px;
+  margin-left: 15px;
+  padding: 0;
+}
+.CenterContent .CenterUser .MSG {
+  margin: 37px auto 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.CenterContent .CenterUser .MSG .UserMessage,
+.CenterContent .CenterUser .MSG .UserData {
+  line-height: 30px;
+}
+.CenterContent .CenterUser .MSG .UserMessage ul li,
+.CenterContent .CenterUser .MSG .UserData ul li {
+  color: #77787b;
+  font-size: 13px;
+}
+.CenterContent .CenterUser .MSG .UserMessage ul li a,
+.CenterContent .CenterUser .MSG .UserData ul li a {
+  color: #77787b;
+}
+.CenterContent .CenterUser .MSG .UserMessage ul li a:hover,
+.CenterContent .CenterUser .MSG .UserData ul li a:hover {
+  color: #ff6700;
+}
+.CenterContent .UserDetails {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 47px 0;
+}
+.CenterContent .UserDetails .Operate {
+  line-height: 30px;
+}
+.CenterContent .UserDetails .Operate .OperTitle {
+  font-size: 20px;
+  color: #7b7f86;
+}
+.CenterContent .UserDetails .Operate .OperHref {
+  font-size: 15px;
+  color: #7b7f86;
+}
+.CenterContent .UserDetails .Operate .OperHref:hover {
+  color: #ff6700;
+}
+/*# sourceMappingURL=index.module.css.map */
