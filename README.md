@@ -1,4 +1,20 @@
-﻿# 旅游网-模拟商城
+旅游网 - 模拟商城
+使用 Docker Compose 运行
+1. 拷贝代码
+sh
+复制代码
+git clone https://github.com/PokemanMaster/lvyouwang-project.git
+cd lvyouwang-project
+2. 确保已安装 Docker 和 Docker Compose
+3. 启动服务
+sh
+复制代码
+docker compose up -d
+本地运行
+用户名： test123456
+密码：
+ 
+ # 旅游网-模拟商城
 
 # docker-compose 运行
 
