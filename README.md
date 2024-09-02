@@ -6,14 +6,16 @@
 git clone https://github.com/PokemanMaster/lvyouwang-project.git
 cd lvyouwang-project
 
-## 确定好你是否有docker和docker-compose
+## 使用docker-compose启动
+```
 docker compose up -d
+```
 
 
 # 本地运行
 ```
-用户名：test123456
-密码：test123456
+用户名：admin1234
+密码：123456
 ```
 
 ## 前端
@@ -131,7 +133,6 @@ server/
 - serializer：将数据序列化为 json 的函数
 - route 路由逻辑处理
 - service：接口函数的实现
-- test：数据库sql
 
 ## 运行
 ```
