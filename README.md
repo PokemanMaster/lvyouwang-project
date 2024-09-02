@@ -1,6 +1,7 @@
 # 旅游网-模拟商城
 
 # docker-compose 运行
+上线网站：https://www.lvyouwang.xyz/login
 
 ## 先拷贝代码
 git clone https://github.com/PokemanMaster/lvyouwang-project.git
@@ -14,7 +15,7 @@ docker compose up -d
 
 # 本地运行
 ```
-用户名：admin1234
+用户名：admin123
 密码：123456
 ```
 
