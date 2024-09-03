@@ -13,8 +13,7 @@ var DB *gorm.DB
 func InitDB() {
 	db, err := gorm.Open(
 		"mysql",
-		"root:123456@tcp(47.113.104.184:3306)/tourist?charset=utf8mb4&parseTime=True&loc=Local",
-		// "root:qq81880234@tcp(127.0.0.1:3306)/tourist?charset=utf8mb4&parseTime=True&loc=Local",
+			
 	)
 	db.LogMode(true)
 	// Error
