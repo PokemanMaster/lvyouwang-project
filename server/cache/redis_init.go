@@ -12,8 +12,8 @@ var RedisClient *redis.Client
 func InitRedis() {
 	db, _ := strconv.ParseUint("0", 10, 64)
 	client := redis.NewClient(&redis.Options{
-		Addr:     "47.113.104.184:6379",
-		Password: "123456",
+		Addr:     "",
+		Password: "",
 		DB:       int(db),
 	})
 	_, err := client.Ping().Result()
